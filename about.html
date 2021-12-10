@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8ca72c6d3d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Header -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+      <h1>About Us</h1>
+
+    </section>
+
+  <!-- About Us Content -->
+  <section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We work for you </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse delectus nostrum tenetur reprehenderit quo dignissimos minus animi illo, velit consequatur corporis temporibus? I
+                ure, quis dignissimos sequi dolorum ducimus asperiores.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg" >
+        </div>
+        
+  </section>
+
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, non! Cumque</br>
+         unde omnis consequuntur pariatur deleniti at ipsam exercitationem perspiciatis</br> 
+         ab! Deleniti recusandae amet aliquid illo laborum rem repellat et.
+        </p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+        <p>Made with  <i class="fas fa-heart"></i> by <a href="https://www.pratikdevdas.com">Pratik</a> </p>
+</section>
+
+
+<!-- Javascript  for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        const showMenu=()=>{
+            navLinks.style.right="0";
+        }
+        
+        const hideMenu=()=>{
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
