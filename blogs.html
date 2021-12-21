@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8ca72c6d3d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Header -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="types.html">Course</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+      <h1>Explore the Things I do</h1>
+
+    </section>
+
+  <!-- Blog Page Contents -->
+ <section class="blog-content">
+     <div class="row">
+         <div class="blog-left">
+             <img src="images/certificate.jpg" alt="" >
+             <h2>Here We go</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At 
+                 numquam aliquam fuga dolorum, quia est velit? Nemo, quaerat 
+                 dolorum harum explicabo deserunt, voluptate asperiores minima
+                 eligendi Lorem ipsum dolor sit amet consectetur adipisicing elit. At 
+                 numquam aliquam fuga dolorum, quia est velit? Nemo, quaerat 
+                 dolorum harum explicabo deserunt, voluptate asperiores minima
+                 eligendi voluptatibus reiciendis, quae odio.voluptatibus reiciendis,
+                 quae odio.</p>
+              <br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At 
+                 numquam aliquam fuga dolorum, quia est velit? Nemo, quaerat 
+                 dolorum harum explicabo deserunt, voluptate asperiores minima
+                 eligendi voluptatibus reiciendis, quae odio.Lorem 
+                 ipsum dolor sit amet consectetur adipisicing elit. At 
+                 numquam aliquam fuga dolorum, quia est velit? Nemo, quaerat 
+                 dolorum harum explicabo deserunt, voluptate asperiores minima
+                 eligendi voluptatibus reiciendis, quae odio.</p>
+               <br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At 
+                 numquam aliquam fuga dolorum, quia est velit? Nemo, quaerat 
+                 eligendi voluptatibus reiciendis, quae odio.Lorem 
+                 dolorum harum explicabo deserunt, voluptate asperiores minima
+                 olorum harum explicabo deserunt, voluptate asperiores minima
+                 olorum harum explicabo deserunt, voluptate asperiores minima
+                 ipsum dolor sit amet consectetur adipisicing elit. At 
+                 numquam aliquam fuga dolorum, quia est velit? Nemo, quaerat 
+                 dolorum harum explicabo deserunt, voluptate asperiores minima
+                 eligendi voluptatibus reiciendis, quae odio.</p>
+                 
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea  rows="10" placeholder="Your Comment"></textarea>
+                        <button type="submit">Post Comment</button>
+                    </form>
+                </div>
+         </div>
+         <div class="blog-right">
+         <h3>Post Categories</h3>
+            <div>
+                 <span>Assassins Creed 3</span>
+                <span>78</span>
+             </div>
+             <div>
+                <span>Ninja Assassin</span>
+               <span>39</span>
+            </div>
+            <div>
+                <span>Devil May Cry</span>
+               <span>29</span>
+            </div>
+            <div>
+                <span>Red Dead Redemption</span>
+               <span>61</span>
+            </div>
+            <div>
+                <span>Tomb Raider</span>
+               <span>46</span>
+            </div>
+            <div>
+                <span>Call Of Duty</span>
+               <span>59</span>
+            </div>
+         </div>
+     </div>
+ </section>
+
+
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, non! Cumque</br>
+         unde omnis consequuntur pariatur deleniti at ipsam exercitationem perspiciatis</br> 
+         ab! Deleniti recusandae amet aliquid illo laborum rem repellat et.
+        </p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+        <p>Made with  <i class="fas fa-heart"></i> by <a href="https://www.pratikdevdas.com">Pratik</a> </p>
+</section>
+
+
+<!-- Javascript  for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        const showMenu=()=>{
+            navLinks.style.right="0";
+        }
+        
+        const hideMenu=()=>{
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+</body>
+</html>
